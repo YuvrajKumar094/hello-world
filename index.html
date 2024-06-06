@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatApp</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="JS/client.js"></script>
+    <link rel="stylesheet" href="/CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <center><h1>C h a t A p p</h1></center>
+    </header>
+    <div class="mainContainer">
+        <div class="sidebar">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Lisence</a></li>
+              
+            </ul>
+            <ul class="sidebarBottom">
+                <li><a href="#">Setting</a></li>
+                <li><a href="#">Costomer Support</a></li>
+            </ul>
+          </div>
+      <div class="container">
+            <div class="aroow"></div>
+          <div class="Message left" id="messageReciever">
+            <p>Hello Bro unt minima voluptatem . Quis, iure nostrum. Cum vitae ad nesciunt aut sint ducimus expedita nostrum tempora.</p>
+          </div>
+          
+    
+          <div class="Message right" id="messageSender">
+            <p>Hello Bro</p>
+          </div>
+      </div>
+
+      
+    </div>
+    <form action="#" id="senderOfmessage">
+      <input type="text" class="MessageInput" id="messageValInp" name="messageValInp">
+      <input type="file" name="FileMessage" id="">
+      <button type="submit" class="submitBtn">send</button>
+    </form>
+  </body>
+</html>

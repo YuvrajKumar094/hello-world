@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family:  osiris;
+    overflow: hidden;
+}
+header{
+    /* border-bottom: 2px solid white; */
+    padding: 10px;
+    /* position: absolute; */
+    top: 0;
+    /* bottom: 100%; */
+    
+}
+h1{
+    background: linear-gradient(0deg, rgba(13,238,240,1) 0%, rgba(23,18,9,1) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    box-shadow: 10px 5px  rgb(13,238,240);
+}
+.mainContainer{
+    display: flex;
+}
+.container{
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 250px;
+    overflow-y: auto;
+    /* max-height: 1000px; */
+    /* height: 100%; */
+    height: 820px;
+}
+.Message{
+    /* display: inline-block; */
+    border: 4px solid rgba(13,238,240,1);
+    font-family: Helvetica, sans-serif   ;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 5px;
+    float: left;
+    clear: both;
+    overflow-y: auto;
+    /* height: 10vh; */
+    margin: 10px;
+}
+
+.aroow{
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-right: 5px solid rgba(13,238,240,1);
+    border-top:  2 px solid rgba(13,238,240,1);
+    border-left: 15px solid transparent;
+    border-bottom:15px solid transparent;
+    
+}
+p{
+    width: 250px;
+    overflow-y: auto;
+    /* height: 10vh; */
+    margin: 10px;
+   
+
+}
+ /* sidebar */
+.sidebar{
+    font-family: azedo;
+    font-size: 22px;
+    width: 250px;
+    padding: 20px;
+    justify-content: space-between;
+    border-right: 2px solid rgba(13,238,240,1);
+    border-radius: 2px;
+    height: 100%;
+    position: fixed;
+    margin: 0px;
+}
+.sidebar li{
+    list-style: none;
+}
+.sidebar li a{
+    text-decoration: none;
+    background: linear-gradient(0deg, rgba(13,238,240,1) 0%, rgba(23,18,9,1) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+}
+.MessageInput{
+    max-width: 1700px;
+    width: 100%;
+    max-height: 22px;
+    height: 100%;
+    font-size: 18px;
+    padding: 18px;
+    margin-left: 255px;
+    bottom: 0;
+}
+.submitBtn{
+    height: 25px;
+    font-size: 22px;
+}
+/* poition  */
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+
