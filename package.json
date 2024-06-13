@@ -1,0 +1,22 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/YuvrajKumar094/hello-world.git"
+  },
+  "author": "Yuvraj Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuvrajKumar094/hello-world/issues"
+  },
+  "homepage": "https://github.com/YuvrajKumar094/hello-world#readme",
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  }
+}
